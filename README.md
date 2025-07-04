@@ -21,7 +21,7 @@ It is a fork of [Uniswap Interface v4.266.2](https://github.com/Uniswap/interfac
 
 ## 🔧 Getting Started
 
-> You must have [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) installed.
+> You must have [Node.js v 18.20.6](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) installed.
 
 # Install dependencies
 ```bash

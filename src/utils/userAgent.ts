@@ -6,7 +6,9 @@ const { type } = parser.getDevice()
 
 export const isMobile = type === 'mobile' || type === 'tablet'
 const platform = parser.getOS().name
+// eslint-disable-next-line
 export const isIOS = platform === 'iOS'
+// eslint-disable-next-line
 export const isNonIOSPhone = !isIOS && type === 'mobile'
 
 // export const isMobileSafari = isMobile && isIOS && name?.toLowerCase().includes('safari')

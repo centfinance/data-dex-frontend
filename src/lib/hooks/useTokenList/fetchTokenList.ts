@@ -13,6 +13,7 @@ const listCache = new Map<string, TokenList>()
 export default async function fetchTokenList(
   listUrl: string,
   resolveENSContentHash: (ensName: string) => Promise<string>,
+  // eslint-disable-next-line
   skipValidation?: boolean
 ): Promise<TokenList> {
   const cached = listCache?.get(listUrl) // avoid spurious re-fetches

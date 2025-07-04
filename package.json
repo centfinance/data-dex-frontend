@@ -27,7 +27,7 @@
     "cypress:open": "cypress open --browser chrome --e2e",
     "cypress:run": "cypress run --browser chrome --e2e",
     "deduplicate": "yarn-deduplicate --strategy=highest",
-    "postinstall": "yarn patch-package"
+    "postinstall": "yarn patch-package && mkdir -p src/utils/__generated__"
   },
   "husky": {
     "hooks": {
@@ -306,6 +306,7 @@
     "@types/react-dom": "18.0.6",
     "@lingui/core": "4.3.0",
     "@lingui/macro": "4.3.0",
-    "@lingui/react": "4.3.0"
+    "@lingui/react": "4.3.0",
+    "minimatch": "^7.0.0"
   }
 }

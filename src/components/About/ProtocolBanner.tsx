@@ -94,7 +94,7 @@ const ProtocolBanner = () => {
       <TextContainer>
         <HeaderText>Powered by the Data DEX Protocol</HeaderText>
         <DescriptionText>
-          The leading decentralized crypto trading protocol, governed by a global community.
+          The leading Data trading protocol for vana.
         </DescriptionText>
       </TextContainer>
       <BannerButtonContainer>

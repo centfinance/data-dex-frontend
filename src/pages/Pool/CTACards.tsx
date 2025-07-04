@@ -17,7 +17,7 @@ const CTASection = styled.section`
     grid-template-rows: auto;
   `};
 `
-
+// eslint-disable-next-line
 const CTA = styled(ExternalLink)`
   padding: 16px;
   border-radius: 20px;
@@ -39,7 +39,7 @@ const CTA = styled(ExternalLink)`
     }
   }
 `
-
+// eslint-disable-next-line
 const HeaderText = styled(ThemedText.DeprecatedLabel)`
   align-items: center;
   display: flex;
@@ -49,7 +49,7 @@ const HeaderText = styled(ThemedText.DeprecatedLabel)`
     font-size: 16px;
   `};
 `
-
+// eslint-disable-next-line
 const ResponsiveColumn = styled(AutoColumn)`
   grid-template-columns: 1fr;
   width: 100%;
@@ -63,6 +63,7 @@ const ResponsiveColumn = styled(AutoColumn)`
 
 export default function CTACards() {
   const { chainId } = useWeb3React()
+  // eslint-disable-next-line
   const { infoLink } = getChainInfoOrDefault(chainId)
 
   return (

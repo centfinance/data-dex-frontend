@@ -24,6 +24,7 @@ class QuoteCache {
   public set = (dataReturn: QueryState, key: string) => {
     if (this.data.size > CACHE_SIZE) {
       const keysIter = this.data.keys()
+      // eslint-disable-next-line
       this.data.delete(keysIter.next().value!)
     }
     this.data.set(key, dataReturn)

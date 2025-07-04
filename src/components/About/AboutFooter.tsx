@@ -95,10 +95,10 @@ const LogoSectionContent = () => {
         <SocialLink href="https://discord.gg/withvana" target="_blank" rel="noopener noreferrer">
           <DiscordIcon size={32} />
         </SocialLink>
-        <SocialLink href="https://x.com/withvana" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://x.com/VanaDataDex" target="_blank" rel="noopener noreferrer">
           <TwitterIcon size={32} />
         </SocialLink>
-        <SocialLink href="https://github.com/vana-com" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://github.com/vanadatadex/" target="_blank" rel="noopener noreferrer">
           <GithubIcon size={32} />
         </SocialLink>
       </SocialLinks>
